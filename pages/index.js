@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -9,7 +9,7 @@ import * as cocossd from "@tensorflow-models/coco-ssd"
 import { drawRect } from "../helpers/utils";
 
 const navigation = [
-  { name: "⭐️ Github", href: "https://github.com/neoxs", current: false },
+  { name: "⭐️ Github", href: "https://github.com/Neoxs/real-time-object-detection", current: false },
 ];
 
 function classNames(...classes) {
@@ -188,7 +188,6 @@ export default function App() {
                   zindex: 2,
                   width: "100%",
                   clear: "both",
-                  marginTop: "-44rem"
                 }}
               />
             </div>

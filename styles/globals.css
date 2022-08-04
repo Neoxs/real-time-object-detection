@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.canvas {
+  margin-top: -44rem;
+}
+
+@media screen and (max-width: 900px) {
+  .canvas {
+    margin-top: -35rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .canvas {
+    margin-top: -25rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .canvas {
+    margin-top: -20rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .canvas {
+    margin-top: -18rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .canvas {
+    margin-top: -15rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .canvas {
+    margin-top: -10rem;
+  }
+}
